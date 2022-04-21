@@ -1,0 +1,28 @@
+##create
+POST http://localhost:8080/api/employees/
+Content-Type: application/json
+Accept: application/json
+
+{"name":  "Ez zsír új"}
+
+###
+##delete
+DELETE http://localhost:8080/api/employees/4
+Content-Type: application/json
+Accept: application/json
+
+
+###
+##update
+PUT http://localhost:8080/api/employees/3
+Content-Type: application/json
+Accept: application/json
+
+{"name":  "Ez lett a 3-as új neve"}
+
+###
+##get all
+GET http://localhost:8080/api/employees/
+Accept: application/json
+
+###
